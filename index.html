@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <title>Reel</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      background: black;
+      overflow: hidden;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    video {
+      width: 100%;
+      height: 100dvh;
+      object-fit: contain;
+      background: black;
+    }
+  </style>
+</head>
+
+<body>
+  <video controls autoplay playsinline preload="auto">
+    <source src="reel%20verificati.mp4" type="video/mp4">
+    Il tuo browser non supporta questo video.
+  </video>
+</body>
+</html>
